@@ -1,0 +1,65 @@
+@import 'src/css/quasar.variables.scss';
+
+.home_page {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  height: calc(100vh - $header-height);
+
+  &-main {
+    background-color: $primary;
+    width: 80%;
+    max-width: 600px;
+    height: 310px;
+
+    &-container {
+      &-text {
+        color: #666666;
+        font-size: 17px;
+        margin: 10px 0;
+        width: 100%;
+        text-align: center;
+      }
+    }
+
+    @media (max-width: 600px) {
+      width: 100%;
+    }
+
+    @media (min-width: 600px) {
+      padding: 15px;
+    }
+  }
+
+  &-balance {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+  }
+
+  &-amount_input {
+    flex: 1;
+    margin-right: 20px;
+  }
+
+  &-type_select {
+    width: 100px;
+  }
+
+  &-input {
+    width: 100%;
+    padding: 0 10px 20px 10px;
+  }
+
+  &-line {
+    width: 100%;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &-submit_button {
+    margin: 5px 10px;
+    width: calc(100% - 20px);
+  }
+}

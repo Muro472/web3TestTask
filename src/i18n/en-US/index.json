@@ -1,0 +1,15 @@
+{
+  "type": "Type",
+  "amount": "Amount",
+  "interactionAddress": "Interaction Address",
+  "home": "Home",
+  "hash": "Hash",
+  "receivedFrom": "Received from",
+  "senTo": "Send to",
+  "receiverAddress": "Receiver Address",
+  "systemTransfer": "System Transfer",
+  "transactions": "Transactions",
+  "send": "Send",
+  "balance": "Balance",
+  "onlyPositiveNumbersRule": "Only positive numbers are allowed"
+}
